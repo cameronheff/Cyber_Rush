@@ -1,0 +1,38 @@
+# File for first level of game
+
+# Map Size (2 by 2), named "Level 1"
+1,1
+Level 1
+
+# Sets which zone we're editing
+setspawn=0,0
+editzone=0,0
+
+setbg=city_bg.png
+setmusic=Title Music.mp3
+
+setleftspawn=30,300
+setrightspawn=100,100
+setupspawn=100,100
+setdownspawn=100,100
+
+addenemy
+setpos=675,158
+setendx=0
+setendy=315
+endenemy
+
+addcollidable
+setpos=300,365
+setdims=100,50
+setcolor=255255255
+endcollidable
+
+addcollidable
+setpos=440,245
+setdims=100,50
+setcolor=255255255
+endcollidable
+
+endzone
+
